@@ -1,0 +1,7 @@
+**/log/
+**/output/
+**/error/
+*log
+*.err
+*.out
+*.cc
