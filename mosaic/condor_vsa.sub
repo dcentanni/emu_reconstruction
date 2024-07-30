@@ -1,8 +1,8 @@
-executable = condor_vsa.sh
+executable = /afs/cern.ch/work/d/dannc/public/emu_reconstruction/mosaic/condor_vsa.sh
 arguments = $(RUN) $(BRICKID) $(PLATENUMBER)
-output = output/vsa.$(ClusterId).$(PLATENUMBER).out
-error = error/vsa.$(ClusterId).$(PLATENUMBER).err
-log = log/vsa.$(ClusterId).log
+output = /afs/cern.ch/work/d/dannc/public/emu_reconstruction/logs/output/vsa.$(ClusterId).$(PLATENUMBER).out
+error = /afs/cern.ch/work/d/dannc/public/emu_reconstruction/logs/error/vsa.$(ClusterId).$(PLATENUMBER).err
+log = /afs/cern.ch/work/d/dannc/public/emu_reconstruction/logs/log/vsa.$(ClusterId).log
 +JobFlavour = "testmatch"
 request_memory = 12GB
 notification = Never
