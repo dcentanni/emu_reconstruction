@@ -17,5 +17,5 @@ cd /eos/experiment/sndlhc/users/dancc/emureco/Napoli/RUN${RUN}/${BRICKFOLDER}
 echo "viewsideal $BRICKID.$PLATENUMBER.0.0"
 source viewsideal.sh $BRICKID $PLATENUMBER
 
-echo "mostag $BRICKID.$PLATENUMBER.0.0"
-source mostag.sh $BRICKID $PLATENUMBER
+#echo "mostag $BRICKID.$PLATENUMBER.0.0"
+#source mostag.sh $BRICKID $PLATENUMBER
